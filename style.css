@@ -1,0 +1,178 @@
+.links li a {
+    color: #0D0D0D; /* Set the text color to white */
+ /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: white;
+}
+#button a {
+    color: white;
+    font-size: 30px;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.container {
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/* Start Landing Page */
+.landing-page header {
+  min-height: 200px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page header .logo {
+  color: #1778B6ff;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page header .links li {
+  margin-left: 30px;
+  color: #211E2Bff;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #FFF;
+  background-color: #1778B6ff;
+  transition:0.5s;
+}
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+
+.landing-page .content .info h1 {
+  color: #211E2Bff;
+  font-size: 60px;
+}
+.landing-page .content .info p {
+  margin: 0;
+  width: 75%;
+  line-height: 1.6;
+  font-size: 20px;
+  color: #211E2Bff;
+}
+.landing-page .content .info button {
+  
+  border: 0;
+  border-radius: 50px;
+  padding: 12px 30px;
+  margin-top: 60px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #1778B6ff;
+  font-size: 20px;
+  transition:0.5s;
+}
+.landing-page .content .info button:hover{
+  background-color: #3FB4E6ff;
+}
+.landing-page .content .image img {
+  border-radius: 20px;
+  height: 100%;  
+  width: 300%;
+  margin-left: -350px;
+}
+body{
+margin:0;
+overflow-x:hidden;
+}
+
+.footer{
+background:#211E2Bff;
+padding:1px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.9% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:#1778B6ff;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#3FB4E6ff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 2%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
